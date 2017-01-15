@@ -1,0 +1,11 @@
+{
+  "curly": true,
+  "devel": true,
+  "eqeqeq": true,
+  "esversion": 6,
+  "jquery": true,
+  "latedef": true,
+  "strict": "global",
+  "undef": true,
+  "unused": true
+}
