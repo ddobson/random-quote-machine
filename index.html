@@ -5,6 +5,9 @@
   <meta charset="utf-8">
   <title>Random Quote App</title>
   <meta name="description" content="A random quote app!">
+
+  <script src="https://use.fontawesome.com/8d2f21737e.js"></script>
+
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
@@ -15,9 +18,28 @@
   <div class="container">
     <div class="row">
       <div class="eight columns offset-by-two quote-panel">
-        <p class="quote"></p>
-        <p class="author"></p>
-        <a class="button" href="#">New Quote</a>
+        <div class="quote-wrap">
+          <i class="fa fa-quote-left fa-lg" aria-hidden="true"></i>
+          <span class="quote">A sample quote: The greatest minds are capable of the greatest vices as well as of the greatest virtues.</span>
+          <i class="fa fa-quote-right fa-lg" aria-hidden="true"></i>
+        </div>
+        <div class="author-wrap clearfix">
+          <span class="author">- Rene Descartes</span>
+        </div>
+        <div class="button-wrap">
+          <a href="#" class="twitter-share">
+            <i class="fa fa-twitter-square fa-3x tweet" aria-hidden="true"></i>
+          </a>
+          <a class="button new-quote" href="#">New Quote</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="eight columns offset-by-two">
+        <div class="github-wrap">
+          <i class="fa fa-github-square" aria-hidden="true"></i>
+          <a href="https://github.com/ddobson" class="github-link">ddobson</a>
+        </div>  
       </div>
     </div>
   </div>
