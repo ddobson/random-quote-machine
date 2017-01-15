@@ -5,6 +5,7 @@
   "esversion": 6,
   "jquery": true,
   "latedef": true,
+  "node": true,
   "strict": "global",
   "undef": true,
   "unused": true
