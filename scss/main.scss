@@ -2,6 +2,7 @@
 $black: #000;
 $grey: #bbb;
 $twitter-blue: rgba(64, 153, 255, 1);
+$twitter-blue-hover: rgba(64, 153, 255, .9);
 
 //Clearfix
 .clearfix::after {
@@ -59,7 +60,7 @@ $twitter-blue: rgba(64, 153, 255, 1);
 }
 
 .twitter-share:hover {
-  color: $twitter-blue;
+  color: $twitter-blue-hover;
 }
 
 .github-wrap {
